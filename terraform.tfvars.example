@@ -1,0 +1,29 @@
+tfe_organization = "example-org"
+
+bitbucket_http_url = "https://bitbucket.example.com"
+bitbucket_api_url  = "https://bitbucket.example.com"
+
+bitbucket_oauth_consumer_key = "replace-me"
+bitbucket_oauth_secret = <<-EOT
+-----BEGIN RSA PRIVATE KEY-----
+replace-me
+-----END RSA PRIVATE KEY-----
+EOT
+
+bitbucket_rsa_public_key = <<-EOT
+-----BEGIN PUBLIC KEY-----
+replace-me
+-----END PUBLIC KEY-----
+EOT
+
+bitbucket_ssh_private_key = <<-EOT
+-----BEGIN RSA PRIVATE KEY-----
+replace-me
+-----END RSA PRIVATE KEY-----
+EOT
+
+repository_identifier = "PLATFORM/Bitbucket-Deploy-Demo
+repository_branch     = "main"
+
+workspace_name              = "bitbucket-example-workspace"
+workspace_working_directory = "."
